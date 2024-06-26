@@ -1,0 +1,24 @@
+body {
+  background-color: rgb(194, 176, 206);
+}
+
+.app {
+  text-align: center;
+  padding: 0;
+  font-size: 130%;
+}
+
+.forma1 {
+  display: inline-block;
+  max-width: 600px;
+  max-height: 45px;
+  padding: 15px 50px 50px;
+  margin: 30px 30px 30px;
+  background-color: white;
+  border: 1px solid rgb(47, 45, 45);
+}
+
+/*.center {
+  text-align: center;
+  margin-top: 5px;
+}*/

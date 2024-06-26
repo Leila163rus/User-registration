@@ -9,7 +9,6 @@ lerna-debug.log*
 
 node_modules
 .DS_Store
-dist-ssr
 coverage
 *.local
 
@@ -34,3 +33,4 @@ jsconfig.json
 package-lock.json
 README.md
 vitest.config.js
+.vscode

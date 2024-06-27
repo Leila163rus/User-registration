@@ -1,6 +1,5 @@
 <template>
   <div class="app">
-    <registration-user />
     <form class="forma1">
       <p>
         Нет аккаунта? <span><router-link to="/registration">Зарегистрироваться</router-link></span>

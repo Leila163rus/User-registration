@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/Leila163rus/User-registration",
+  "homepage": "https://leila163rus.github.io/User-registration/",
   "name": "user-registration",
   "version": "0.0.0",
   "private": true,
@@ -11,7 +11,8 @@
     "test:unit": "vitest",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
-    "build-report": "vue-cli-service build --report"
+    "build-report": "vue-cli-service build --report",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@vuelidate/core": "^2.0.3",

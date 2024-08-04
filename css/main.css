@@ -18,7 +18,7 @@ body {
   border: 1px solid rgb(47, 45, 45);
 }
 
-@media (min-width: 360px) {
+@media (max-width: 420px) {
   .app {
     font-size: 50%;
   }

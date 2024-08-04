@@ -11,7 +11,9 @@
     "test:unit": "vitest",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
-    "build-report": "vue-cli-service build --report"
+    "build-report": "vue-cli-service build --report",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@vuelidate/core": "^2.0.3",

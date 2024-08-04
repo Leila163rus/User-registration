@@ -38,4 +38,11 @@ const userOut = () => {
   display: block;
   margin: 20px auto;
 }
+
+@media (max-width: 412px) {
+  .forma {
+    width: fit-content;
+    zoom: 50%;
+  }
+}
 </style>
